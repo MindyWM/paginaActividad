@@ -1,0 +1,43 @@
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #110b0b;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+}
+.boton:hover {
+    background-color: #0056b3;
+}
+p{
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px; 
+   
+}
+h2{
+    padding: 10px; /* Espacio interno en los párrafos */
+    margin: 5px; /* Espacio externo en los párrafos */
+    flex: 1; /* Los párrafos tomarán un ancho igual */
+    text-align: center; /* Centrar el texto */
+  
+}
+h1{
+
+    padding: 10px; /* Espacio interno en los párrafos */
+    margin: 5px; /* Espacio externo en los párrafos */
+    flex: 1; /* Los párrafos tomarán un ancho igual */
+    text-align: center; /* Centrar el texto */
+ 
+}
+.contenedor p {
+    background-color: #f0f0f0; /* Color de fondo de los párrafos */
+    padding: 10px; /* Espacio interno en los párrafos */
+    margin: 5px; /* Espacio externo en los párrafos */
+    border: 1px solid #ccc; /* Borde de los párrafos */
+    flex: 1; /* Los párrafos tomarán un ancho igual */
+    text-align: center; /* Centrar el texto */
