@@ -13,31 +13,26 @@
 .boton:hover {
     background-color: #0056b3;
 }
-p{
+.contenedor{
     display: flex;
     justify-content: space-around; 
     padding: 10px; 
    
 }
-h2{
+h2, h1{
     padding: 10px; /* Espacio interno en los párrafos */
     margin: 5px; /* Espacio externo en los párrafos */
     flex: 1; /* Los párrafos tomarán un ancho igual */
     text-align: center; /* Centrar el texto */
   
 }
-h1{
 
-    padding: 10px; /* Espacio interno en los párrafos */
-    margin: 5px; /* Espacio externo en los párrafos */
-    flex: 1; /* Los párrafos tomarán un ancho igual */
-    text-align: center; /* Centrar el texto */
- 
-}
 .contenedor p {
     background-color: #f0f0f0; /* Color de fondo de los párrafos */
     padding: 10px; /* Espacio interno en los párrafos */
-    margin: 5px; /* Espacio externo en los párrafos */
+   
+    margin: 0 3em ; /* Espacio externo en los párrafos */
     border: 1px solid #ccc; /* Borde de los párrafos */
     flex: 1; /* Los párrafos tomarán un ancho igual */
     text-align: center; /* Centrar el texto */
+}
